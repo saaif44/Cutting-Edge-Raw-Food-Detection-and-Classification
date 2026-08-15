@@ -1,0 +1,52 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local editor settings
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.flaskenv
+**/secret.py
+**/db.json
+
+# Python packaging artifacts
+*.egg-info/
+build/
+dist/
+
+# Generated uploads, detections, and runtime output
+**/static/assets/uploads/
+**/static/assets/detections/
+**/static/metadata/
+**/static/csv/
+
+# Training data, weights, and generated ML artifacts
+food-101/
+*.h5
+*.pt
+*.pth
+*.onnx
+weights/
+runs/
+checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
