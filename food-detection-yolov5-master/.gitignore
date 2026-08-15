@@ -1,0 +1,15 @@
+__pycache__
+*/__pycache__
+.vscode
+images
+annos
+food-app
+*.json
+*.zip
+MAFood121
+vn_food
+data
+school_lunch
+data_ocr
+OID
+base.yaml
